@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "gamma",
+      "password": "gamma",
+      "phone": "0812111111",
+      "email": "gammarinaldi@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "freya",
+      "password": "freya",
+      "phone": "0812111111",
+      "email": "freya@gmail.com",
+      "role": "member"
+    },
+    {
+      "username": "kekez",
+      "email": "kekez@mail.com",
+      "phone": "0812111111",
+      "password": "kekez",
+      "id": 3,
+      "role": "member"
+    }
+  ],
+  "concession": [
+    {
+      "menu": "Food",
+      "item": "Salty Popcorn",
+      "price": 35000,
+      "img": "https://cdn.cgv.id/uploads/concessions/101013.png",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "menu": "Food",
+      "item": "Caramel Popcorn",
+      "price": 40000,
+      "img": "https://cdn.cgv.id/uploads/concessions/101013.png"
+    },
+    {
+      "id": 3,
+      "menu": "Food",
+      "item": "Hotdog",
+      "price": 45000,
+      "img": "https://cdn.cgv.id/uploads/concessions/101018.png"
+    },
+    {
+      "id": 4,
+      "menu": "Beverage",
+      "item": "Mineral Water",
+      "price": 10000,
+      "img": "https://cdn.cgv.id/uploads/concessions/100032.png"
+    },
+    {
+      "id": 5,
+      "menu": "Beverage",
+      "item": "Nescafe",
+      "price": 15000,
+      "img": "https://cdn.cgv.id/uploads/concessions/101050.png"
+    },
+    {
+      "menu": "Beverage",
+      "item": "Milo",
+      "price": 25000,
+      "img": "https://cdn.cgv.id/uploads/concessions/101047.png",
+      "id": 6
+    }
+  ],
+  "supercart": [
+    {
+      "menu": "Food",
+      "item": "Hotdog",
+      "price": 45000,
+      "qty": 1,
+      "idUser": "freya",
+      "img": "https://cdn.cgv.id/uploads/concessions/101018.png",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "userId": "freya",
+      "invoiceId": "INV/freya/2018/11/11/17474",
+      "trxDate": "11/12/2018 @ 17:47:4",
+      "totalQty": 1,
+      "totalPrice": 45000,
+      "id": 1
+    }
+  ],
+  "orderdetails": [
+    {
+      "invoiceId": "INV/freya/2018/11/11/17474",
+      "itemDetails": [
+        {
+          "menu": "Food",
+          "item": "Hotdog",
+          "price": 45000,
+          "qty": 1,
+          "idUser": "freya",
+          "img": "https://cdn.cgv.id/uploads/concessions/101018.png",
+          "id": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}
